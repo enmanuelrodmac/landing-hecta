@@ -1,0 +1,51 @@
+{
+  "header": {
+    "title": "Hecta 3.0",
+    "about_us": "Sobre Nosotros",
+    "technology": "Tecnología",
+    "sustainability": "Sostenibilidad",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "welcome": "Bienvenido al Futuro de la Agricultura",
+    "description": "Descubre el mundo vanguardista de la agricultura donde la tecnología se encuentra con la sostenibilidad. Nuestra misión es revolucionar la agricultura para un mañana más brillante.",
+    "learn_more": "Saber Más"
+  },
+  "benefits1": {
+    "title": "Beneficios Modernos y Futuristas:",
+    "benefit1_title": "Agricultura de Precisión",
+    "benefit1_description": "Experimenta una gestión precisa de cultivos con análisis de datos en tiempo real, optimizando el uso de recursos y aumentando los rendimientos.",
+    "benefit2_title": "Innovaciones Sostenibles",
+    "benefit2_description": "Adopta prácticas ecológicas, incluyendo la agricultura vertical, riego con IA e integración de energía renovable para un futuro más verde.",
+    "benefit3_title": "Automatización Inteligente",
+    "benefit3_description": "Aprovecha el poder de la automatización, drones y maquinaria autónoma para una agricultura eficiente, reduciendo los costos laborales y aumentando la productividad.",
+    "learn_more": "Aprende más sobre lo que estamos haciendo",
+    "image_alt": "Beneficios Modernos y Futuristas"
+  },
+  "benefits2": {
+    "title": "Prácticas Agrícolas Innovadoras:",
+    "benefit1_title": "Monitoreo de Salud del Suelo",
+    "benefit1_description": "Utiliza sensores avanzados y análisis de datos para monitorear y mejorar la salud del suelo, asegurando condiciones óptimas de cultivo.",
+    "benefit2_title": "Conservación del Agua",
+    "benefit2_description": "Implementa sistemas de riego inteligentes que utilizan IA para reducir el desperdicio de agua y promover prácticas agrícolas sostenibles.",
+    "benefit3_title": "Eficiencia Energética",
+    "benefit3_description": "Adopta fuentes de energía renovable y maquinaria eficiente para reducir el consumo de energía y minimizar la huella de carbono.",
+    "learn_more": "Aprende más sobre lo que estamos haciendo",
+    "image_alt": "Prácticas Agrícolas Innovadoras"
+  },
+  "benefits3": {
+    "title": "Soluciones Agrícolas Preparadas para el Futuro:",
+    "benefit1_title": "Resiliencia Climática",
+    "benefit1_description": "Desarrolla cultivos y técnicas agrícolas que puedan soportar las condiciones climáticas cambiantes y los eventos climáticos extremos.",
+    "benefit2_title": "Variedades de Cultivos Avanzados",
+    "benefit2_description": "Explora cultivos genéticamente modificados que ofrezcan mayores rendimientos, mejor valor nutricional y resistencia a plagas y enfermedades.",
+    "benefit3_title": "Integración al Mercado",
+    "benefit3_description": "Utiliza enfoques basados en datos para conectar a los agricultores con los mercados, optimizando las cadenas de suministro y maximizando los beneficios.",
+    "learn_more": "Aprende más sobre lo que estamos haciendo",
+    "image_alt": "Soluciones Agrícolas Preparadas para el Futuro"
+  },
+  "footer": {
+    "copyright": "Hecta 3.0 © 2024. Todos los derechos reservados."
+  }
+}

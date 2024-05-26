@@ -1,0 +1,51 @@
+{
+  "header": {
+    "title": "Hecta 3.0",
+    "about_us": "About Us",
+    "technology": "Technology",
+    "sustainability": "Sustainability",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "welcome": "Welcome to the Future of Agriculture",
+    "description": "Discover the cutting-edge world of agriculture where technology meets sustainability. Our mission is to revolutionize farming for a brighter tomorrow.",
+    "learn_more": "Learn More"
+  },
+  "benefits1": {
+    "title": "Modern and Futuristic Benefits:",
+    "benefit1_title": "Precision Farming",
+    "benefit1_description": "Experience precise crop management with real-time data analytics, optimizing resource use and increasing yields.",
+    "benefit2_title": "Sustainable Innovations",
+    "benefit2_description": "Embrace eco-friendly practices, including vertical farming, AI-powered irrigation, and renewable energy integration for a greener future.",
+    "benefit3_title": "Smart Automation",
+    "benefit3_description": "Harness the power of automation, drones, and autonomous machinery for efficient farming, reducing labor costs and enhancing productivity.",
+    "learn_more": "Learn More about what we are doing",
+    "image_alt": "Modern and Futuristic Benefits"
+  },
+  "benefits2": {
+    "title": "Innovative Agricultural Practices:",
+    "benefit1_title": "Soil Health Monitoring",
+    "benefit1_description": "Utilize advanced sensors and data analytics to monitor and improve soil health, ensuring optimal growing conditions.",
+    "benefit2_title": "Water Conservation",
+    "benefit2_description": "Implement smart irrigation systems that use AI to reduce water waste and promote sustainable farming practices.",
+    "benefit3_title": "Energy Efficiency",
+    "benefit3_description": "Adopt renewable energy sources and efficient machinery to lower energy consumption and minimize carbon footprint.",
+    "learn_more": "Learn More about what we are doing",
+    "image_alt": "Innovative Agricultural Practices"
+  },
+  "benefits3": {
+    "title": "Future-Ready Agricultural Solutions:",
+    "benefit1_title": "Climate Resilience",
+    "benefit1_description": "Develop crops and farming techniques that can withstand changing climate conditions and extreme weather events.",
+    "benefit2_title": "Advanced Crop Varieties",
+    "benefit2_description": "Explore genetically modified crops that offer higher yields, better nutritional value, and resistance to pests and diseases.",
+    "benefit3_title": "Market Integration",
+    "benefit3_description": "Use data-driven approaches to connect farmers with markets, optimizing supply chains and maximizing profits.",
+    "learn_more": "Learn More about what we are doing",
+    "image_alt": "Future-Ready Agricultural Solutions"
+  },
+  "footer": {
+    "copyright": "Hecta 3.0 © 2024. All rights reserved."
+  }
+}

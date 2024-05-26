@@ -1,0 +1,35 @@
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.benefits-container {
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.benefits-container .slide-enter {
+  position: absolute;
+  transform: translateX(100%);
+}
+
+.benefits-container .slide-enter-active {
+  transform: translateX(0);
+  transition: transform 500ms ease-in-out;
+}
+
+.benefits-container .slide-exit {
+  position: absolute;
+  transform: translateX(0);
+}
+
+.benefits-container .slide-exit-active {
+  transform: translateX(-100%);
+  transition: transform 500ms ease-in-out;
+}
