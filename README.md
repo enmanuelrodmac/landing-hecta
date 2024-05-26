@@ -4,26 +4,12 @@ Hecta 3.0 es una plataforma innovadora que fusiona tecnología y sostenibilidad 
 
 ## Tabla de Contenidos
 
-- [Instalación](#instalación)
 - [Scripts Disponibles](#scripts-disponibles)
 - [Internacionalización (i18n)](#internacionalización-i18n)
 - [Dependencias](#dependencias)
+- [Dependencias de desarrollo](#dependencias-de-desarrollo)
 - [Licencia](#licencia)
 
-## Instalación
-
-1. Clona el repositorio:
-
-   ```bash
-   git clone https://github.com/tu-usuario/agritech-advance.git
-   cd agritech-advance
-   npm install
-   ```
-
-   
-### Scripts Disponibles
-
-```markdown
 ## Scripts Disponibles
 
 En el directorio del proyecto, puedes ejecutar:
@@ -31,7 +17,7 @@ En el directorio del proyecto, puedes ejecutar:
 ### `npm run dev`
 
 Inicia la aplicación en modo de desarrollo.  
-Abre [http://localhost:3000](http://localhost:3000) para verlo en el navegador.
+Abre [http://localhost:5173](http://localhost:5173) para verlo en el navegador.
 
 La página se recargará si haces ediciones.  
 También verás errores de lint en la consola.
@@ -79,3 +65,7 @@ Este proyecto utiliza `react-i18next` para manejar la internacionalización. Los
 - eslint-plugin-react-hooks: ^4.6.0
 - eslint-plugin-react-refresh: ^0.4.6
 - vite: ^5.2.0
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más información.
