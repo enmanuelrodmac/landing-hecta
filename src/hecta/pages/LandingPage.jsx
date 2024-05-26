@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Benefits1, Benefits2, Benefits3, Footer, Header, Hero } from '../components';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import './LandingPage.css';
 
-const benefitsComponents = [<Benefits1 />, <Benefits2 />, <Benefits3 />];
+const benefitsComponents = [<Benefits1 key={'benefits1'}/>, <Benefits2 key={'benefits2'}/>, <Benefits3 key={'benefits3'}/>];
 
 export const LandingPage = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
