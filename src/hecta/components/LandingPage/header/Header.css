@@ -30,7 +30,6 @@
   align-items: center; /* Asegura que todos los elementos de la lista están alineados al centro */
 }
 
-
 .header nav ul li a {
   color: white;
   text-decoration: none;
@@ -81,4 +80,99 @@
   transition: 0.4s;
 }
 
-/* Configuraciones específicas para la visualización en dispositivos móviles están correctamente configuradas y no necesitan ajustes adicionales */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(31, 59, 31, 0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .header nav.open {
+    transform: translateX(0);
+  }
+
+  .header nav ul {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center; /* Centrar verticalmente los elementos */
+    align-items: center; /* Alinea los elementos en el centro horizontalmente */
+    height: 100%; /* Ocupa toda la altura del contenedor */
+  }
+
+  .header nav ul li {
+    width: 100%;
+  }
+
+  .header nav ul li a {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .language-switcher-desktop {
+    display: none; /* Ocultar selector de idioma de escritorio en dispositivos móviles */
+  }
+
+  .language-switcher-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Alinea el selector de idioma en el centro verticalmente */
+    width: 100%;
+  }
+
+  .language-switcher-mobile select {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+    width: 80%;
+  }
+
+  .language-switcher-mobile select:hover {
+    background-color: #45a049;
+  }
+
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+
+  .close-menu {
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+  }
+}
